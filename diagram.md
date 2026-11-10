@@ -46,6 +46,7 @@ graph TD
 
 Prototipos de Interfaz de Usuario
 Este es un prototipo de la pantalla del usuario senior, especificamente el apartado del banco 
+```text
 ┌────────────────────────────────────────────────────────┐
 │ SABIAPP                                    [?] Ayuda   │
 ├────────────────────────────────────────────────────────┤
@@ -75,43 +76,47 @@ Este es un prototipo de la pantalla del usuario senior, especificamente el apart
 │  └────────────────────────┘  └──────────────────────┘  │
 │                                                        │
 └────────────────────────────────────────────────────────┘
+```
 
 Este es un prototipo de la pantalla del usuario senior, especificamente el apartado del anti fraude. 
 
+
+```text
 ┌────────────────────────────────────────────────────────┐
-│  SABIAPP - APRENDE A DETECTAR FRAUDES                  │
+│ SABIAPP - APRENDE A DETECTAR FRAUDES                   │
 ├────────────────────────────────────────────────────────┤
 │                                                        │
 │  [SMS] Ha recibido el siguiente mensaje en su movil:   │
 │                                                        │
 │  ┌──────────────────────────────────────────────────┐  │
-│  │  De: +34 600 000 999                              │  │
+│  │ De: +34 600 000 999                              │  │
 │  │                                                  │  │
-│  │  "CORREOS: Su paquete no se ha podido entregar    │  │
-│  │   por faltar el n° de calle. Pague 1,89 EUR aqui:  │  │
-│  │   http://correos-entrega-incidencia.com/pago"      │  │
+│  │ "CORREOS: Su paquete no se ha podido entregar   │  │
+│  │  por faltar el n° de calle. Pague 1,89 EUR aqui: │  │
+│  │  http://correos-entrega-incidencia.com/pago"     │  │
 │  └──────────────────────────────────────────────────┘  │
 │                                                        │
 │  ¿Que debe hacer con este mensaje?                     │
 │                                                        │
 │  ┌──────────────────────────────────────────────────┐  │
-│  │  1. Pulsar el enlace para pagar los 1,89 EUR      │  │
+│  │  [X] 1. Pulsar el enlace para pagar los 1,89 EUR │  │
 │  └──────────────────────────────────────────────────┘  │
 │  ┌──────────────────────────────────────────────────┐  │
-│  │  2. Borrar el mensaje y NO pulsar en el enlace    │  │
+│  │  [V] 2. Borrar el mensaje y NO pulsar en enlace  │  │
 │  └──────────────────────────────────────────────────┘  │
 │                                                        │
 │  [*] Pista: Mire atentamente la direccion web (URL)    │
 │                                                        │
 └────────────────────────────────────────────────────────┘
-
+```
 Este es un prototipo de la pantalla del usuario tutor.
 
+```text
 ┌────────────────────────────────────────────────────────────────────────┐
 │  SABIAPP - PANEL DEL TUTOR                          [ Mi Cuenta (Tutor) ]│
 ├────────────────────────────────────────────────────────────────────────┤
 │                                                                        │
-│  Familiar supervisado: [ Carmen Mendoza (72 años) v ]   [ + Vincular ] │
+│  Familiar supervisado: [ Carmen Mendoza (72 años) v ]  [ + Vincular ]  │
 │                                                                        │
 │  ┌───────────────────────┐ ┌───────────────────────┐ ┌───────────────┐ │
 │  │ Modulos Completados   │ │ Tasa de Aciertos      │ │ Dificultad    │ │
@@ -133,3 +138,4 @@ Este es un prototipo de la pantalla del usuario tutor.
 │   reforzar esa leccion juntos."                                        │
 │                                                                        │
 └────────────────────────────────────────────────────────────────────────┘
+```
