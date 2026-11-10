@@ -47,31 +47,31 @@ graph TD
 Prototipos de Interfaz de Usuario
 Este es un prototipo de la pantalla del usuario senior, especificamente el apartado del banco 
 ┌────────────────────────────────────────────────────────┐
-│      SABIAPP                     [  Ayuda / Glosario ] │
+│ SABIAPP                                    [?] Ayuda   │
 ├────────────────────────────────────────────────────────┤
 │                                                        │
-│   ENTORNO DE PRÁCTICA SEGURO                           │
-│   (Sus cuentas y dinero real NO corren ningún riesgo)  │
+│   [!] ENTORNO DE PRACTICA SEGURO                       │
+│   (Sus cuentas y dinero real NO corren ningun riesgo)  │
 │                                                        │
-│  ────────────────────────────────────────────────────  │
+├────────────────────────────────────────────────────────┤
 │                                                        │
-│  PASO 1 DE 3: Elija a quién enviar el dinero           │
+│  PASO 1 DE 3: Elija a quien enviar el dinero           │
 │                                                        │
 │  ┌──────────────────────────────────────────────────┐  │
-│  │     María (Hija)                 612 345 678     │  │
+│  │  [Contacto] Maria (Hija)           612 345 678   │  │
 │  └──────────────────────────────────────────────────┘  │
 │  ┌──────────────────────────────────────────────────┐  │
-│  │     Juan (Nieto)                 699 887 766     │  │
+│  │  [Contacto] Juan (Nieto)           699 887 766   │  │
 │  └──────────────────────────────────────────────────┘  │
 │  ┌──────────────────────────────────────────────────┐  │
-│  │     Escribir un número nuevo                     │  │
+│  │  [+] Escribir un numero nuevo                    │  │
 │  └──────────────────────────────────────────────────┘  │
 │                                                        │
-│  ────────────────────────────────────────────────────  │
+├────────────────────────────────────────────────────────┤
 │                                                        │
 │  ┌────────────────────────┐  ┌──────────────────────┐  │
-│  │  ⬅️ VOLVER AL MENÚ     │  │  CONTINUAR ➡️        │  │
-│  │                         │  │                      │  │
+│  │  [<-] VOLVER AL MENU   │  │  CONTINUAR [->]      │  │
+│  │  (Sin guardar)         │  │  (Paso siguiente)    │  │
 │  └────────────────────────┘  └──────────────────────┘  │
 │                                                        │
 └────────────────────────────────────────────────────────┘
@@ -79,57 +79,57 @@ Este es un prototipo de la pantalla del usuario senior, especificamente el apart
 Este es un prototipo de la pantalla del usuario senior, especificamente el apartado del anti fraude. 
 
 ┌────────────────────────────────────────────────────────┐
-│  🟢 SABIAPP - APRENDE A DETECTAR FRAUDES               │
+│  SABIAPP - APRENDE A DETECTAR FRAUDES                  │
 ├────────────────────────────────────────────────────────┤
 │                                                        │
-│    Ha recibido el siguiente mensaje SMS en su móvil:   │
+│  [SMS] Ha recibido el siguiente mensaje en su movil:   │
 │                                                        │
 │  ┌──────────────────────────────────────────────────┐  │
-│  │    De: +34 600 000 999                           │  │
+│  │  De: +34 600 000 999                              │  │
 │  │                                                  │  │
-│  │ "CORREOS: Su paquete no se ha podido entregar   │  │
-│  │  por faltar el n° de calle. Pague 1,89€ aquí:    │  │
-│  │  http://correos-entrega-incidencia.com/pago"     │  │
+│  │  "CORREOS: Su paquete no se ha podido entregar    │  │
+│  │   por faltar el n° de calle. Pague 1,89 EUR aqui:  │  │
+│  │   http://correos-entrega-incidencia.com/pago"      │  │
 │  └──────────────────────────────────────────────────┘  │
 │                                                        │
-│  ¿Qué debe hacer con este mensaje?                     │
+│  ¿Que debe hacer con este mensaje?                     │
 │                                                        │
 │  ┌──────────────────────────────────────────────────┐  │
-│  │     1. Pulsar el enlace para pagar los 1,89€     │  │
+│  │  1. Pulsar el enlace para pagar los 1,89 EUR      │  │
 │  └──────────────────────────────────────────────────┘  │
 │  ┌──────────────────────────────────────────────────┐  │
-│  │    2. Borrar el mensaje y NO pulsar en el enlace │  │
+│  │  2. Borrar el mensaje y NO pulsar en el enlace    │  │
 │  └──────────────────────────────────────────────────┘  │
 │                                                        │
-│  💡 [ Pista: Mire atentamente la dirección web (URL) ] │
+│  [*] Pista: Mire atentamente la direccion web (URL)    │
 │                                                        │
 └────────────────────────────────────────────────────────┘
 
 Este es un prototipo de la pantalla del usuario tutor.
 
 ┌────────────────────────────────────────────────────────────────────────┐
-│  SABIAPP - PANEL DEL TUTOR                  [ Mi Cuenta (Tutor) ]   │
+│  SABIAPP - PANEL DEL TUTOR                          [ Mi Cuenta (Tutor) ]│
 ├────────────────────────────────────────────────────────────────────────┤
 │                                                                        │
-│Familiar supervisado:  [ Carmen Mendoza (72 años)  ▼ ]  [ + Vincular ]  │
+│  Familiar supervisado: [ Carmen Mendoza (72 años) v ]   [ + Vincular ] │
 │                                                                        │
 │  ┌───────────────────────┐ ┌───────────────────────┐ ┌───────────────┐ │
-│  │ Módulos Completados   │ │ Tasa de Aciertos      │ │ Dificultad    │ │
+│  │ Modulos Completados   │ │ Tasa de Aciertos      │ │ Dificultad    │ │
 │  │      6 de 8           │ │        85%            │ │ Pantalla      │ │
 │  └───────────────────────┘ └───────────────────────┘ └───────────────┘ │
 │                                                                        │
 │  Detalle de Rendimiento y Bloqueos Recientes:                          │
 │  ┌───────────────────────────┬─────────────┬─────────────────────────┐ │
-│  │ Módulo de Simulación      │ Estado      │ Puntos de Atasco/Error  │ │
+│  │ Modulo de Simulacion      │ Estado      │ Puntos de Atasco/Error  │ │
 │  ├───────────────────────────┼─────────────┼─────────────────────────┤ │
-│  │ Cita Médica (Salud)       │ Superado    │ Ninguno (Fluido)        │ │
+│  │ Cita Medica (Salud)       │ Superado    │ Ninguno (Fluido)        │ │
 │  │ Bizum Ficticio (Banca)    │ En progreso │ Duda al introducir PIN  │ │
-│  │ Taller SMS (Ciberestafas) │ Superado    │ Requirió 2 intentos     │ │
+│  │ Taller SMS (Ciberestafas) │ Superado    │ Requirio 2 intentos     │ │
 │  └───────────────────────────┴─────────────┴─────────────────────────┘ │
 │                                                                        │
-│  Recomendaciones de la aplicación:                                     │
-│  "Carmen tiene dificultades para diferenciar el botón de 'Confirmar'   │
-│   del botón de 'Cancelar' en operaciones bancarias. Se sugiere         │
-│   reforzar esa lección juntos."                                        │
+│  Recomendaciones de la aplicacion:                                     │
+│  "Carmen tiene dificultades para diferenciar el boton de 'Confirmar'   │
+│   del boton de 'Cancelar' en operaciones bancarias. Se sugiere         │
+│   reforzar esa leccion juntos."                                        │
 │                                                                        │
 └────────────────────────────────────────────────────────────────────────┘
