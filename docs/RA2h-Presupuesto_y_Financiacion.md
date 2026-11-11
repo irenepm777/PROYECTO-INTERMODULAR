@@ -1,87 +1,44 @@
-# Presupuesto y Financiación: SabiApp
+# Presupuesto y Financiación: SabiApp (resumen)
 
-* **Módulo:** Proyecto Intermodular (2.º DAW)
-* **Sprint 2:** Estructuración y Planificación (RA2.h Presupuesto económico)
-* **Equipo de Desarrollo:** Minority Report (Juan Manuel Francisco Mendoza, Bakunin Sosa Álvarez, Irene Pascual Moreno)
-* **Fecha:** Noviembre 2026
-
----
+* **Módulo:** Proyecto Intermodular (2.º DAW) · **Sprint 2:** RA2.h Presupuesto económico
+* **Equipo:** Minority Report (Juan Manuel Francisco Mendoza, Bakunin Sosa Álvarez, Irene Pascual Moreno) · Noviembre 2026
 
 ## Resumen
 
-Llevar SabiApp hasta un MVP funcional, lanzarlo y mantenerlo durante un año cuesta unos **893 €** de desembolso real (≈ 298 € por persona): todo el software es gratuito y el equipo ya dispone de ordenadores, así que los gastos relevantes son los dos dispositivos de prueba (310 €) y el marketing de lanzamiento (275 €). Según el modelo de ingresos del pitch, **una sola licencia de centro** (o unas 16 suscripciones durante un año) cubre ese presupuesto completo.
+Llevar SabiApp a un MVP, lanzarlo y mantenerlo un año cuesta **≈ 1.111 € (≈ 370 € por persona)**. El software de desarrollo es gratuito y los portátiles son propios; el gasto se concentra en dispositivos de prueba, marketing y suscripciones del equipo. Una sola licencia de centro del modelo de ingresos cubre el total.
 
----
+## 1. Costes directos (horizonte: MVP + 12 meses, IVA incluido)
 
-## 1. Presupuesto de costes directos
+| Categoría | Qué incluye | Coste |
+| :--- | :--- | ---: |
+| Material | Smartphone (150 €) y tablet (160 €) Android de gama básica para pruebas; fungible (25 €) | 335,00 € |
+| Servicios externos | VPS con copias (10 €/mes × 12), dominio `.es` (7,25 €), merienda para las pruebas con mayores (≈ 10 × 4 €) | 167,25 € |
+| Marketing | 500 flyers A5 (84,70 €), Meta Ads a familias de 35-55 años (50 €/mes × 3), desplazamientos a ≈ 10 centros (40 €) | 274,70 € |
+| IA y automatización | IA de pago: 3 personas × 18 €/mes × 3 meses (162 €); reserva Make Core (27 €). Copilot Student, GitHub Actions y Canva, gratis | 189,00 € |
+| **Subtotal** | | **965,95 €** |
+| Contingencia 15 % | Servidor, coste real de la publicidad, tarifas de suscripciones, reposición de dispositivos | 144,89 € |
+| **TOTAL** | | **1.110,84 €** |
 
-Horizonte: desarrollo del MVP + 12 meses de servicio. Importes en euros, IVA incluido.
+* **Escenario mínimo ≈ 537 € (≈ 179 € por persona):** dispositivos cedidos o reacondicionados (−310 €) y solo herramientas gratuitas (−189 €).
+* **IA y automatización:** son herramientas del equipo, no del producto (la v1 descarta IA generativa, doc. 3.1). Se paga solo lo que ahorre tiempo y se revisa tras el primer mes. Las automatizaciones solo mueven datos del equipo, nunca de usuarios (Zapier aloja en EE. UU. por defecto).
+* **Marketing:** lo lleva Juanma. Los anuncios (≈ 250 clics) sirven para validar el mensaje; la captación principal es directa, en centros y asociaciones.
+* **Trabajo del equipo, no desembolsado:** 27 h/semana × 15 €/h × 12 semanas ≈ 4.860 €.
 
-| Categoría | Partida | Cálculo | Coste |
-| :--- | :--- | :--- | ---: |
-| **Material y equipamiento** | Equipos de desarrollo | 3 portátiles propios, ya disponibles | 0,00 € |
-| | Smartphone Android de gama básica (pruebas) | 1 ud. | 150,00 € |
-| | Tablet Android de gama básica (pruebas) | 1 ud. | 160,00 € |
-| | Material fungible (guiones de prueba, consentimientos, papel) | Estimación | 25,00 € |
-| **Licencias de software** | PHP, MySQL, Docker, Git/GitHub, Figma Education, Lighthouse, WAVE, axe DevTools, Let's Encrypt, tipografía Lexend | Gratuitas o de código abierto | 0,00 € |
-| **Servicios externos** | VPS con copias de seguridad | ≈ 10 €/mes × 12 | 120,00 € |
-| | Dominio `.es` | Primer año | 7,25 € |
-| | Sesiones de prueba con personas mayores (merienda de agradecimiento) | ≈ 10 participantes × 4 € | 40,00 € |
-| | Subcontrataciones | Ninguna: el equipo cubre frontend, backend, BBDD y DevOps | 0,00 € |
-| **Marketing y lanzamiento** | Piezas gráficas (flyers, redes, presentación) con Canva | Plan gratuito | 0,00 € |
-| | Flyers A5 para centros de mayores y asociaciones | 500 ud. | 84,70 € |
-| | Publicidad en Meta Ads (Facebook/Instagram) dirigida a familias de 35-55 años | 50 €/mes × 3 meses | 150,00 € |
-| | Visitas y demos en centros de mayores (desplazamientos) | ≈ 10 visitas × 4 € | 40,00 € |
-| | Vídeo demo y redes sociales | Móvil propio y edición gratuita; la web usa el dominio ya presupuestado | 0,00 € |
-| | **Subtotal marketing** | | **274,70 €** |
-| | **Subtotal costes directos** | | **776,95 €** |
-| **Contingencia** | 15 % para desviaciones de precio, ampliación del servidor, coste real de la publicidad o reposición de dispositivos | 776,95 € × 0,15 | 116,54 € |
-| | **TOTAL** | | **893,49 €** |
+## 2. Financiación
 
-* **Por qué 15 % y no 10 %:** las partidas más inciertas son el servidor (el plan de referencia de Hetzner, CX22 a 3,79 €/mes, figura ya como obsoleto) y el coste real por clic de la publicidad.
-* **Marketing:** lo lleva Juanma (marketing, según el organigrama del pitch). Los 150 € de anuncios dan ≈ 250 clics (CPC medio de Facebook ≈ 0,63 $, ≈ 0,6 €; no hay dato específico para España): valen para validar el mensaje, no para escalar. La captación principal va por canal directo (centros de mayores y asociaciones), que cuesta tiempo y no dinero.
-* **Escenario mínimo:** con dispositivos reacondicionados o cedidos por un centro de mayores (−310 €), el total baja a ≈ **537 €** (≈ 179 € por persona).
-* **RGPD sin coste:** la documentación básica se genera con *Facilita RGPD* de la AEPD, gratuita y válida para tratamientos de bajo riesgo; SabiApp no recoge datos sanitarios ni bancarios reales.
+* **MVP:** aportación del equipo a partes iguales, sin deuda ni inversores. Compras: Bakunin; contabilidad: Irene y Juanma.
+* **En especie:** centros piloto pueden ceder personas, espacio y dispositivos.
+* **Tras el MVP:** modelo *freemium* (suscripción de 5 €/mes, licencia de centro de 100 €/mes).
 
----
+## 3. Viabilidad
 
-## 2. Coste del trabajo del equipo (no desembolsado)
-
-El Team Charter fija 8-10 h/semana por persona. Con 9 h, son 27 h/semana; valoradas a 15 €/h (tarifa junior supuesta), ≈ **405 €/semana**, unos **4.860 €** en un desarrollo de 12 semanas (duración supuesta). No sale de caja, pero es el coste real si hubiera que contratar ese trabajo.
-
----
-
-## 3. Financiación
-
-**Responsables (según el organigrama del pitch):** compras, Bakunin; contabilidad y gestión financiera, Irene y Juanma.
-
-* **Fase MVP:** aportación del equipo a partes iguales (≈ 298 € por persona, ≈ 179 € en el escenario mínimo). Sin deuda ni inversores externos.
-* **Apoyo en especie:** stakeholders y centros piloto pueden ceder personas y espacio para las pruebas con mayores, y dispositivos (a negociar). Reduce el presupuesto sin aportar dinero.
-* **Tras el MVP:** ingresos propios del modelo *freemium*: suscripción de 5 €/mes y licencia de centro de 100 €/mes. Las ayudas a la inclusión digital se explorarán más adelante y no se cuentan en este presupuesto.
-
----
-
-## 4. Viabilidad económica
-
-* **Escenario del pitch:** 200 suscripciones × 5 € × 12 + 10 centros × 100 € × 12 = 12.000 € + 12.000 € = **24.000 €/año**.
-* **Costes recurrentes tras el MVP:** ≈ 128 €/año (servidor con copias, 120 €, y renovación del dominio, 8,46 €), más la publicidad que se decida mantener (referencia: 50 €/mes).
-* **Comisión de cobro** (Stripe, tarjetas del EEE: 1,5 % + 0,25 € por cobro): una suscripción de 5 € pierde ≈ 0,33 € (6,5 %); una licencia de 100 €, ≈ 1,75 € (1,75 %). Con un plan anual de 60 € la comisión baja a 1,15 € (1,9 %), por lo que conviene ofrecerlo.
-* **Punto de equilibrio:** una licencia de centro (1.200 €/año) cubre el presupuesto completo; solo con suscripciones, hacen falta ≈ 16 suscriptores durante un año.
-* **Cautela:** los 24.000 € son un escenario hipotético por validar (próximo paso del pitch: validación con usuarios y análisis económico). Alcanzar ≈ 210 clientes no es realista solo con 150 € de anuncios: depende de alianzas con centros y del boca a boca, y el presupuesto de marketing debe revisarse tras validar. Tampoco incluyen impuestos, forma jurídica ni salarios.
-
----
+* **Escenario del pitch:** 200 suscripciones + 10 centros = **24.000 €/año**, hipotético y por validar; depende de alianzas con centros más que de los anuncios.
+* **Recurrentes tras el MVP:** ≈ 128 €/año (servidor y dominio) más publicidad opcional (50 €/mes). Las IA de pago se cancelan al terminar (≈ 54 €/mes si se mantienen).
+* **Comisión de cobro** (Stripe, 1,5 % + 0,25 €): ≈ 6,5 % en una suscripción de 5 €; conviene ofrecer plan anual (1,9 %).
+* **Equilibrio:** una licencia de centro (1.179 € netos, con poco margen) o ≈ 20 suscriptores durante un año.
 
 ## Supuestos y fuentes
 
-Precios consultados el 10/11/2026. Son estimaciones propias: material fungible, merienda de las pruebas, 10 €/mes de VPS con copias, 4 € por visita a centros, 3 meses de anuncios a 50 €/mes, 15 €/h de tarifa y 12 semanas de duración.
+Precios consultados el 10 y 11/11/2026. Estimaciones propias: fungible, merienda, 10 €/mes de VPS con copias, 4 € por visita, 3 meses de anuncios y de IA, 9 €/mes de reserva de automatización, 15 €/h y 12 semanas.
 
-* Equipo, horas y roles: [Team Charter](./Contrato-grupal.pdf) y [Pitch del sector](./Pitch-sector-SabiApp.pdf) (organigrama y modelo de ingresos).
-* Dominio `.es`: [OVHcloud](https://www.ovhcloud.com/es-es/domains/tld/es/) (5,99 € sin IVA el primer año; 6,99 € de renovación).
-* Servidor de referencia: [Hetzner CX22 en VPS Benchmarks](https://vpsbenchmarks.com/hosters/hetzner/plans/cx22) (3,79 €/mes, plan obsoleto).
-* Tablet: [Lenovo Tab M11, oferta ≈ 160 €](https://www.elgrupoinformatico.com/tablets/oferta-lenovo-tablet-tab-m11/).
-* Smartphone: [móviles baratos en Xataka](https://www.xataka.com/seleccion/mejores-moviles-baratos) (de 111 € a 170 €; Moto G06 Power desde 149 €).
-* Figma gratis para estudiantes: [Figma Education](https://www.figma.com/education/students/).
-* RGPD: [Facilita RGPD (AEPD)](https://www.aepd.es/guias-y-herramientas/herramientas/facilita-rgpd).
-* Comisiones de cobro: [Stripe](https://stripe.com/es/pricing).
-* Publicidad: [CPC medio de Facebook Ads, Influee (jul. 2026)](https://influee.co/es/blog/good-cpc-facebook-ads) (0,63 $; sin dato para España).
-* Flyers: [MOO, 500 flyers A5](https://www.moo.com/es/flyers/a5) (84,70 €).
+Fuentes: [Team Charter](./Contrato-grupal.pdf) - [Pitch](./Pitch-sector-SabiApp.pdf) - [OVHcloud](https://www.ovhcloud.com/es-es/domains/tld/es/) - [Hetzner CX22](https://vpsbenchmarks.com/hosters/hetzner/plans/cx22) (plan obsoleto) - [Lenovo Tab M11](https://www.elgrupoinformatico.com/tablets/oferta-lenovo-tablet-tab-m11/) - [Móviles baratos](https://www.xataka.com/seleccion/mejores-moviles-baratos) - [Stripe](https://stripe.com/es/pricing) - [Facilita RGPD](https://www.aepd.es/guias-y-herramientas/herramientas/facilita-rgpd) - [Facebook Ads CPC](https://influee.co/es/blog/good-cpc-facebook-ads) - [MOO flyers](https://www.moo.com/es/flyers/a5) - [Planes de IA](https://www.javadex.es/blog/chatgpt-vs-claude-vs-gemini-cual-pagar-mejor-plan-2026) - [Copilot Student](https://education.github.com/pack) - [n8n/Zapier/Make](https://www.virtua.cloud/learn/es/concepts/n8n-vs-zapier-vs-make-coste-privacidad)
