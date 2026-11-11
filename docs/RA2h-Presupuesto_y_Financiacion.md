@@ -1,4 +1,4 @@
-# Presupuesto y Financiación: SabiApp (resumen)
+# Presupuesto y Financiación: SabiApp
 
 * **Módulo:** Proyecto Intermodular (2.º DAW) · **Sprint 2:** RA2.h Presupuesto económico
 * **Equipo:** Minority Report (Juan Manuel Francisco Mendoza, Bakunin Sosa Álvarez, Irene Pascual Moreno) · Noviembre 2026
@@ -22,7 +22,7 @@ Llevar SabiApp a un MVP, lanzarlo y mantenerlo un año cuesta **≈ 1.111 € (�
 * **Escenario mínimo ≈ 537 € (≈ 179 € por persona):** dispositivos cedidos o reacondicionados (−310 €) y solo herramientas gratuitas (−189 €).
 * **IA y automatización:** son herramientas del equipo, no del producto (la v1 descarta IA generativa, doc. 3.1). Se paga solo lo que ahorre tiempo y se revisa tras el primer mes. Las automatizaciones solo mueven datos del equipo, nunca de usuarios (Zapier aloja en EE. UU. por defecto).
 * **Marketing:** lo lleva Juanma. Los anuncios (≈ 250 clics) sirven para validar el mensaje; la captación principal es directa, en centros y asociaciones.
-* **Trabajo del equipo, no desembolsado:** 27 h/semana × 15 €/h × 12 semanas ≈ 4.860 €.
+* **Trabajo del equipo, no desembolsado:** 27 h/semana × 15 €/h × 9 semanas (tres sprints de 2-3 semanas, según 3.1) ≈ 3.645 €; ≈ 2.430 € si fueran 6 semanas.
 
 ## 2. Financiación
 
@@ -39,6 +39,6 @@ Llevar SabiApp a un MVP, lanzarlo y mantenerlo un año cuesta **≈ 1.111 € (�
 
 ## Supuestos y fuentes
 
-Precios consultados el 10 y 11/11/2026. Estimaciones propias: fungible, merienda, 10 €/mes de VPS con copias, 4 € por visita, 3 meses de anuncios y de IA, 9 €/mes de reserva de automatización, 15 €/h y 12 semanas.
+Precios consultados el 10 y 11/11/2026. Estimaciones propias: fungible, merienda, 10 €/mes de VPS con copias, 4 € por visita, 3 meses de anuncios y de IA (cubren las ≈ 9 semanas de desarrollo con margen de facturación), 9 €/mes de reserva de automatización, 15 €/h y 9 semanas de desarrollo.
 
 Fuentes: [Team Charter](./Contrato-grupal.pdf) - [Pitch](./Pitch-sector-SabiApp.pdf) - [OVHcloud](https://www.ovhcloud.com/es-es/domains/tld/es/) - [Hetzner CX22](https://vpsbenchmarks.com/hosters/hetzner/plans/cx22) (plan obsoleto) - [Lenovo Tab M11](https://www.elgrupoinformatico.com/tablets/oferta-lenovo-tablet-tab-m11/) - [Móviles baratos](https://www.xataka.com/seleccion/mejores-moviles-baratos) - [Stripe](https://stripe.com/es/pricing) - [Facilita RGPD](https://www.aepd.es/guias-y-herramientas/herramientas/facilita-rgpd) - [Facebook Ads CPC](https://influee.co/es/blog/good-cpc-facebook-ads) - [MOO flyers](https://www.moo.com/es/flyers/a5) - [Planes de IA](https://www.javadex.es/blog/chatgpt-vs-claude-vs-gemini-cual-pagar-mejor-plan-2026) - [Copilot Student](https://education.github.com/pack) - [n8n/Zapier/Make](https://www.virtua.cloud/learn/es/concepts/n8n-vs-zapier-vs-make-coste-privacidad)
