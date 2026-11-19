@@ -7,10 +7,10 @@ Repositorio principal del proyecto **SabiApp**, desarrollado por el equipo **Min
 | Recurso | Acceso |
 | :--- | :--- |
 | Proyecto y código | [GitHub repository](https://github.com/irenepm777/PROYECTO-INTERMODULAR) |
-| Tablero Scrumban | [GitHub Projects](https://github.com/irenepm777/PROYECTO-INTERMODULAR/projects) |
+| Tablero Scrumban | [GitHub Issues](https://github.com/irenepm777/PROYECTO-INTERMODULAR/issues) |
 | Organizador de trabajo | GitHub Projects / Issues; las HU deberán trazarse mediante etiquetas `epic`, `sprint` y `HU` |
 | Contrato grupal | [Contrato grupal](./docs/Contrato-grupal.pdf) |
-| Presentación Sprint 2 | [Presentación SabiApp](./docs/3.1-Presentacion_Sprint-2_SabiApp.pdf) |
+| Presentación Sprint 2 | [Presentación SabiApp corregida](./docs/3.1-Presentacion_Sprint-2_SabiApp-corrected.pdf) |
 
 > El repositorio debe mantenerse público para que cualquier persona pueda consultar la documentación y no exista una versión de las normas o decisiones que solo pueda leer el equipo.
 
@@ -36,32 +36,22 @@ Repositorio principal del proyecto **SabiApp**, desarrollado por el equipo **Min
 - **Visión:** convertir a SabiApp en la plataforma española de referencia para el aprendizaje interactivo seguro de personas mayores.
 - **Valores:** empatía intergeneracional, seguridad y confianza, accesibilidad universal, paciencia pedagógica y privacidad ética.
 
-El documento completo de misión, visión, valores, organigrama y modelo de negocio está en [4.10-Modelo_de_Negocio_y_Empresa.md](./docs/4.10-Modelo_de_Negocio_y_Empresa.md).
+El modelo de negocio y empresa se recoge en la presentación de [negocio y empresa](./docs/3.1-Presentacion_Sprint-2_SabiApp-corrected.pdf) y en los documentos de [necesidades y soluciones](./docs/3.1-Planteamiento_Necesidades_y_Soluciones.md).
 
 ## Índice de documentación
 
 ### Documentos principales
 
 - [Planteamiento de necesidades y soluciones](./docs/3.1-Planteamiento_Necesidades_y_Soluciones.md)
-- [Modelo de negocio y empresa](./docs/4.10-Modelo_de_Negocio_y_Empresa.md)
-- [Presupuesto económico detallado](./docs/4.10-Presupuesto_SabiApp.xlsx)
-- [Wireframes de SabiApp](./docs/3.1-Wireframes-SabiApp.png)
-- [Plan de ejecución — Sprint 0](./docs/4.11-Plan-Ejecucion-Sprint-0.md)
+- [Presupuesto económico detallado](./docs/sabiapp-presupuesto.xlsx)
+- [Presupuesto económico en PDF](./docs/sabiapp-presupuesto.pdf)
+- [Wireframes de SabiApp](./assets/img/wireframes/)
 - [Plan de ejecución — Sprint 1](./docs/4.12-Plan-Ejecucion-Sprint-1.md)
-- [Presentación Sprint 2](./docs/3.1-Presentacion_Sprint-2_SabiApp.pdf)
+- [Presentación Sprint 2 corregida](./docs/3.1-Presentacion_Sprint-2_SabiApp-corrected.pdf)
 - [Contrato grupal](./docs/Contrato-grupal.pdf)
+- [Pitch del sector](./docs/Pitch-sector-SabiApp.pdf)
 
-### Parte A — Planificación inicial (Sprint 0)
-
-El [documento de Sprint 0](./docs/4.11-Plan-Ejecucion-Sprint-0.md) recoge:
-
-- Roadmap de Epics y Product Backlog inicial.
-- Diagrama general de casos de uso.
-- Matriz general de riesgos, prevención y contingencia.
-- Alcance, presupuestos, recursos y permisos necesarios.
-- Criterios de selección y objetivo del primer Sprint.
-
-### Parte B — Planificación detallada (Sprint 1)
+### Planificación detallada (Sprint 1)
 
 El [documento de Sprint 1](./docs/4.12-Plan-Ejecucion-Sprint-1.md) recoge:
 
