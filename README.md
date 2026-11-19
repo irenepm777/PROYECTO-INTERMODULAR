@@ -44,6 +44,8 @@ El documento completo de misión, visión, valores, organigrama y modelo de nego
 
 - [Planteamiento de necesidades y soluciones](./docs/3.1-Planteamiento_Necesidades_y_Soluciones.md)
 - [Modelo de negocio y empresa](./docs/4.10-Modelo_de_Negocio_y_Empresa.md)
+- [Presupuesto económico detallado](./docs/4.10-Presupuesto_SabiApp.xlsx)
+- [Wireframes de SabiApp](./docs/3.1-Wireframes-SabiApp.png)
 - [Plan de ejecución — Sprint 0](./docs/4.11-Plan-Ejecucion-Sprint-0.md)
 - [Plan de ejecución — Sprint 1](./docs/4.12-Plan-Ejecucion-Sprint-1.md)
 - [Presentación Sprint 2](./docs/3.1-Presentacion_Sprint-2_SabiApp.pdf)
